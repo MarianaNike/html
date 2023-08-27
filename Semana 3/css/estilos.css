@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+:root {
+  --corPrincipal: #4056a1;
+  --corSecundaria: #efe2ba;
+  --corTerciaria: #d79922;
+  --corAlerta: #f13c20;
+  --corClara: #c5cbe3;
+  --corEscura: #333;
+  --corBranca: #fff
+}
+
+* {
+  margin-top: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--corSecundaria);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header {
+  background-color: #4056a1;
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: calc(10% + 2vw);
+  padding-left: calc(10% + 2vw);
+  background-image: linear-gradient(#4056a1, #333);
+}
+
+.header td {
+  color: white;
+}
+
+.header logo {
+  width: 50%;
+  padding-right: 2vw;
+}
+
+.header img {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+}
+
+.header b {
+  font-size: 4vw;
+}
+
+.header small {
+  font-size: 15px;
+  font-family: 'Caveat', Courier, monospace;
+}
+
+.menu a {
+  font-family: "Caveat";
+  display: inline-block;
+  padding: 10px 4vw;
+  font-size: 3vw;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  margin: .7vw;
+}
+  
+}
+
+menu a::active {
+  color: var(--corClara);
+  background-color: var(--corPrincipal);
+  
+}
+
+.table class {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hero h1 {
+  font-size: 4vw;
+  color: var(--corTerciaria);
+  font-family: "Open sans";
+}
+
+.hero h2 {
+  font-size: 3vw;
+  font-family: "Caveat";
+  color: var(--corClara);
+  line-height: 2vw;
+}
+
+.hero h3 {
+  font-size: 3vw;
+  font-family: "Caveat";
+  color: var(--corSecundaria);
+  line-height: 3vw;
+}
+
+.hero h3 {
+  font-size: 2vw;
+  font-family: "Caveat";
+  color: white;
+}
+
+.hero td:first-child {
+  background-color: var(--corEscura);
+  padding: 2vw;
+  border-radius: 20px;
+  border-collapse: separate;
+}
+
+.hero a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: var(--corPrincipal);
+  padding: 15px;
+  margin-top: 25px;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  font-weight: bold;
+}
+
+.hero a:hover {
+  outline: solid 2px var(--corTerciaria);
+  outline-offset: -2px;
+}
+
+.hero img {
+  border-radius: 20px;
+}
+
+.td1 {
+  width: 12vw;
+}
+
+.paginas a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--corEscura);
+  background-color: var(--corSecundaria);
+}
+
+.paginas {
+  font-size: 2vw;
+  padding-left: 50px;
+}
+
+.experiencias {
+  font-size: 2vw;
+  padding-left: 50px;
+}
+
+.experiencias td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  background-color: var(--corSecundaria);
+}
+
+.projetos {
+  font-size: 2vw;
+  background-color: var(--corSecundaria);
+}
+
+.projetos td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  background-color: var(--corSecundaria);
+}
+
+.projetos img {
+  width: 25vw;
+  padding-left: 50px;
+}
+
+progress {
+  height: 4vw;
+}
+
+.formcontato {
+  font-size: 2vw;
+  background-color: var(--corSecundaria);
+  padding-left: 50px;
+}
+
+.formcontato button {
+  font-size: 2vw;
+  padding: 1vw 2vw;
+  border-radius: 1vw;
+  margin-bottom: 1vw;
+  background-color: var(--corPrincipal);
+  color: white;
+}
+
+.formcontato hr {
+  margin: 2vw;
+}
+
+.footer img {
+  width: 10vw;
+}
+
+.footer {
+  font-size: 10px;
+  bottom: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 100%;
+  background-color: #ffff;
+  color: var(--corEscura);
+  text-align: center;
+}
+
+<div class="footer"><p>Footer</p></div>
