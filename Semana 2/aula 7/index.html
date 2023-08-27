@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens SVG</title>
+</head>
+<body>
+
+    <h1>Imagens SVG</h1>
+    <hr>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="30" stroke="black" stroke-windth="60" fill="blue">
+        <circle cx="90" cy="70" r="60" stroke="black" border-radius="100"  stroke-width="90" fill="blue">
+    </svg>
+    <br><br><br><br><br>
+    <hr>
+    <style>
+     #draw{
+        height: 50px;
+        width: 100px;
+        background-color: rgb(128, 231, 197);
+        border-radius: 50%;
+     }
+    </style>
+
+    <br><br><br><br><br>
+<hr>
+    <svg width="100" height="100">
+        <circle float="left" width="150" height="150" margin="20"      shape-outside="ellipse 20%" clip-path="ellipse 20%" background="lightblue"></circle>
+
+        <rect width="596" height="296" fill="none" stroke="black" stroke-windth="4" x="2" y="2"/>
+
+        <rect width="60" height="30" fill="yellow" stroke="black" stroke-width="4" x="10" y="10" id="r1"/>
+
+        <animate xlink:href="#r1" attributeName="width" from="10" to="600" dur="2s" begin="click" fill="remove" repeatCount="1" />
+    </svg>
+    
+</body>
+</html>
